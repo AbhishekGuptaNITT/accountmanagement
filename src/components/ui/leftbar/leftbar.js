@@ -9,6 +9,9 @@ const Leftbar = (props) => {
                 <i className="material-icons" style={{fontSize:'350%'}} onClick={(event) => props.clicked(event)}>home</i>
             </Leftbarcontrols>
             <Leftbarcontrols>
+                <i className="material-icons" style={{fontSize:'350%'}} onClick={(event) => props.clicked(event)}>list</i>
+            </Leftbarcontrols>
+            <Leftbarcontrols>
                 <i className="material-icons" style={{fontSize:'350%'}} onClick={(event) => props.clicked(event)}>addchart</i>
             </Leftbarcontrols>
             <Leftbarcontrols>

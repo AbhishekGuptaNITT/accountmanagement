@@ -6,7 +6,7 @@ const Header = (props) => {
     const header = (
         <div className={classes.header}>
             <span className={classes.headerbrand}>
-                Accounts Management
+                A/C Manager
             </span>
             <Headercontrol balance={props.balance} transactions={props.transactions} />
         </div>

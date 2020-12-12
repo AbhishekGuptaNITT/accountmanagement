@@ -4,6 +4,7 @@ import Calculator from '../../components/calculator/calculator'
 import Loader from '../../components/ui/loader/loader'
 import AddTransaction from '../../components/addTransaction/addTransaction'
 import axios from '../../components/axiosinstance/axiosinstance'
+import DashBoard from '../../components/dashBoard/dashBoard'
 class AccountsManager extends Component{
     state = {
         transactions:-1,
@@ -56,8 +57,12 @@ class AccountsManager extends Component{
     const calculator = <Calculator />
     const loader = <Loader />
     const addTransaction = <AddTransaction postData = {this.postData} />
+    const dashboard = <DashBoard />
     let content = null
     switch(this.state.active){
+        case 'list':
+            content = dashboard
+            break
         case 'home':
             content = home
             break

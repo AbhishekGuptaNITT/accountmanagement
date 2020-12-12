@@ -1,0 +1,10 @@
+tr{
+    border:0.4px solid black;
+    background: #fff;
+    padding: 10px;
+}
+td{
+    margin:0px 60px;
+    color: black;
+    padding: 10px 20px;
+}
